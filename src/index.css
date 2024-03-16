@@ -57,10 +57,16 @@ body{
   font-family: arial, sans-serif;
   margin: 10px  5px;
   color: black;
-  border: 1px solid hsl(0, 0%, 80%);
-  background-color: #ffde00;
   font-size: 20px;
   border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+
 }
 
 .pokemon .base ul{
@@ -73,6 +79,7 @@ body{
   list-style-type: none;
   padding: 1%;
   overflow: hidden;
+  
 }
 
 .pokemon .base li{
@@ -80,6 +87,7 @@ body{
   padding: 2px 17px;
   font: 1em sans-serif;
   text-align: center;
+  
 }
 
 .footer{
